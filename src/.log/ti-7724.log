@@ -1,0 +1,38 @@
+[20:32:12.42] Global cache location 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6', safe file path 'c:/users/jules/appdata/roaming/nvm/v12.10.0/node_modules/typescript/lib/typingsafelist.json', types map path c:/users/jules/appdata/roaming/nvm/v12.10.0/node_modules/typescript/lib/typesmap.json
+[20:32:12.47] Processing cache location 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6'
+[20:32:12.51] Trying to find 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/package.json'...
+[20:32:12.65] Loaded content of 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.475"},"devDependencies":{"@types/inherits":"0.0.30","@types/object-assign":"^4.0.30","@types/prop-types":"^15.7.3","@types/react":"^16.9.15","@types/react-dom":"^16.9.4","@types/react-is":"^16.7.1","@types/scheduler":"^0.16.1"}}
+[20:32:12.69] Loaded content of 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/package-lock.json'
+[20:32:12.89] Adding entry into typings cache: 'inherits' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/inherits/index.d.ts'
+[20:32:12.105] Adding entry into typings cache: 'object-assign' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/object-assign/index.d.ts'
+[20:32:12.113] Adding entry into typings cache: 'prop-types' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/prop-types/index.d.ts'
+[20:32:12.124] Adding entry into typings cache: 'react' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/react/index.d.ts'
+[20:32:12.140] Adding entry into typings cache: 'react-dom' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/react-dom/index.d.ts'
+[20:32:12.152] Adding entry into typings cache: 'react-is' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/react-is/index.d.ts'
+[20:32:12.167] Adding entry into typings cache: 'scheduler' => 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/scheduler/index.d.ts'
+[20:32:12.172] Finished processing cache location 'C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6'
+[20:32:12.177] Process id: 10136
+[20:32:12.181] NPM location: "c:\Program Files\nodejs\npm" (explicit '--npmLocation' not  provided)
+[20:32:12.186] validateDefaultNpmLocation: false
+[20:32:12.191] Npm config file: C:/Users/Jules/AppData/Local/Microsoft/TypeScript/3.6/package.json
+[20:32:12.195] Updating types-registry npm package...
+[20:32:12.199] Exec: "c:\Program Files\nodejs\npm" install --ignore-scripts types-registry@latest
+[20:32:16.589]     Succeeded. stdout:
+    + types-registry@0.1.475
+    updated 1 package and audited 17 packages in 0.787s
+found 0 vulnerabilities
+
+
+[20:32:16.594] Updated types-registry npm package
+[20:32:16.608] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["C:/Users/Jules/AppData/Roaming/nvm/v12.10.0/node_modules/typescript/lib/lib.d.ts","C:/Users/Jules/AppData/Roaming/nvm/v12.10.0/node_modules/typescript/lib/lib.es5.d.ts","C:/Users/Jules/AppData/Roaming/nvm/v12.10.0/node_modules/typescript/lib/lib.dom.d.ts","C:/Users/Jules/AppData/Roaming/nvm/v12.10.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","C:/Users/Jules/AppData/Roaming/nvm/v12.10.0/node_modules/typescript/lib/lib.scripthost.d.ts","c:/Users/Jules/Code/dropshift/src/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"c:/users/jules/code/dropshift/src","kind":"discover"}
+[20:32:16.622] Loaded safelist from types map file 'c:/users/jules/appdata/roaming/nvm/v12.10.0/node_modules/typescript/lib/typesmap.json'
+[20:32:16.628] Explicitly included types: []
+[20:32:16.634] Inferred typings from unresolved imports: []
+[20:32:16.639] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["c:/Users/Jules/Code/dropshift/src/bower_components","c:/Users/Jules/Code/dropshift/src/node_modules","c:/users/jules/code/dropshift/src/bower_components","c:/users/jules/code/dropshift/src/node_modules"]}
+[20:32:16.644] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["c:/Users/Jules/Code/dropshift/src/bower_components","c:/Users/Jules/Code/dropshift/src/node_modules","c:/users/jules/code/dropshift/src/bower_components","c:/users/jules/code/dropshift/src/node_modules"]}
+[20:32:16.649] DirectoryWatcher:: Added:: WatchInfo: c:/Users/Jules/Code/dropshift/src/bower_components
+[20:32:16.656] DirectoryWatcher:: Added:: WatchInfo: c:/Users/Jules/Code/dropshift/src/node_modules
+[20:32:16.661] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[20:32:16.666] Response has been sent.
+[20:32:16.671] No new typings were requested as a result of typings discovery
